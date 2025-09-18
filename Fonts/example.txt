@@ -1,0 +1,13 @@
+#include <Windows.h>
+#include <tchar.h>
+
+void LoadFluentIconsFont() {
+    // Adds the font to the current process's font table.
+    // The FR_PRIVATE flag ensures it's not installed system-wide
+    // and is automatically removed on process termination.
+    // The path is relative to the executable's location.
+    if (AddFontResourceEx(_T("..\\src\\fonts\\Segoe Fluent Icons.ttf"), FR_PRIVATE, NULL) == 0) {
+        // Handle error: font could not be loaded.
+        // GetLastError() can provide more details.
+    }
+}
