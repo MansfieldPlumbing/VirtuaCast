@@ -3,8 +3,6 @@ VirtuaCast: A high-performance C++ pipeline for real-time AI vision. Features a 
 
 # VirtuaCast: The Engine for Real-Time AI Video
 
-### *Slogan: "Forging better pipes."*
-
 ![VirtuaCast Demo GIF](https://your-link-to-a-demo.gif)
 *(**Action:** TO BE INCLDED "VirtuaCam" device.)*
 
